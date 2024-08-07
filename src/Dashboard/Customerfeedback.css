@@ -1,0 +1,44 @@
+.feedback-card {
+  /* background-color: #fff; */
+  padding: 20px;
+  /* border-radius: 8px; */
+  text-align: center;
+  display: flex;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.feedback-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.feedback-rating {
+  /* margin-bottom: 10px; */
+}
+
+.feedback-text {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.customer-row {
+  height: 272px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.customer-row::-webkit-scrollbar {
+  width: 0.3em;
+  height: 10px;
+}
+
+.customer-row::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Track color */
+}
+
+.customer-row::-webkit-scrollbar-thumb {
+  background: #d2cece;
+  /* Handle color */
+}

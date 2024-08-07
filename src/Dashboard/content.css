@@ -1,0 +1,155 @@
+.content-div {
+  margin: 0px 20px 0px 12px;
+}
+
+.dashboardLabel {
+  margin: 10px 0px;
+  position: relative;
+  z-index: 1;
+}
+.small-card.ant-card .ant-card-body {
+  margin: 0;
+  padding: 10px;
+}
+
+.content-row {
+  height: calc(100vh - 108px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+
+.content-row::-webkit-scrollbar {
+  width: 0.3em;
+  height: 10px;
+}
+
+.content-row::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Track color */
+}
+
+.content-row::-webkit-scrollbar-thumb {
+  background: #d2cece;
+  /* Handle color */
+}
+
+.nonProfit-card.ant-card .ant-card-body {
+  margin: 0;
+  padding: 10px;
+}
+
+.barChart-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-text {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.card-num {
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 7px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.totalOrder-img {
+  background-color: rgba(33, 118, 243, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.totalDelivered-img {
+  background-color: rgba(3, 169, 244, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.totalCancel-img {
+  background-color: rgba(255, 193, 7, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.totalRevenue-img {
+  background-color: rgba(255, 235, 59, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.number-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progessBar.ant-progress
+  .ant-progress-inner:not(.ant-progress-circle-gradient)
+  .ant-progress-circle-path {
+  stroke: #50baea !important;
+}
+
+.select-dropdowm.ant-select-single .ant-select-selector {
+  border-radius: 17px;
+}
+
+.select-dropdowm.ant-select-single {
+  height: 28px;
+}
+
+.select-dropdowm.ant-select-single .ant-select-selector {
+  font-size: 12px;
+}
+
+.select-dropdowm.ant-select-dropdown .ant-select-item {
+  font-size: 12px;
+}
+
+.dish-target-menu {
+  display: flex;
+}
+
+.target-image {
+  background: rgba(255, 193, 7, 0.4);
+  border-radius: 30px;
+  width: 59px;
+  height: 59px;
+  padding: 7px;
+}
+
+.dishes-image {
+  background: rgba(33, 150, 243, 0.6);
+  border-radius: 30px;
+  width: 59px;
+  height: 59px;
+  padding: 7px;
+}
+
+.menus-image {
+  background: rgba(11, 212, 238, 0.3);
+  border-radius: 31px;
+  width: 62px;
+  height: 62px;
+  padding: 9px;
+}
+
+.customer-table.ant-table-wrapper .ant-table-thead > tr > th {
+  padding: 7px 10px;
+}
+
+.customer-table.ant-table-wrapper .ant-table-tbody > tr > td {
+  padding: 7px 10px;
+  font-size: 12px;
+}
+
+.customer-table .ant-table-body {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #aca9a9 #f1f1f1; /* Thumb and track colors */
+  border-radius: 4px;
+}

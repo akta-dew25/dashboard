@@ -1,0 +1,45 @@
+.siderMenu.ant-menu-light .ant-menu-item-selected {
+  background-color: #7887da !important;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.siderMenu.ant-menu-inline .ant-menu-item {
+  margin-inline: 19px !important;
+  width: calc(100% - 38px) !important;
+  margin-top: 10px;
+}
+.siderMenu {
+  height: 84vh;
+}
+
+.siderMenu.ant-menu {
+  text-align: start;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.signoutMenu {
+  height: auto;
+}
+
+.signoutMenu.ant-menu-inline .ant-menu-item {
+  margin-inline: 19px !important;
+  width: calc(100% - 38px) !important;
+  margin-top: auto;
+  background-color: #ea6d98 !important;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.signoutMenu .ant-menu-item-active {
+  margin-inline: 19px !important;
+  width: calc(100% - 38px) !important;
+  margin-top: auto;
+  background-color: #ea6d98 !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+}

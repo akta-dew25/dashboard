@@ -1,0 +1,52 @@
+.dashboardIcon {
+  width: 63px;
+  height: 63px;
+  float: left;
+  padding: 10px;
+  margin-left: 17px;
+}
+
+.companyName {
+  color: #534e4e;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.inputSearch {
+  width: 100%;
+}
+
+.menuItems {
+  padding: 33px 0px 0px 0px;
+}
+
+.menuItem {
+  padding: 20px 0px 0px 0px;
+}
+
+.menuItem:hover {
+  border: none !important;
+}
+
+/* ant-menu-item-only-child  */
+
+.ant-menu-submenu-popup .ant-menu-vertical > .ant-menu-item.menuItem {
+  padding: 0;
+  text-align: center;
+}
+
+.ant-menu-submenu-popup .ant-menu-vertical > .ant-menu-item.menuItems {
+  padding: 0;
+  text-align: center;
+}
+
+.ant-menu-light.ant-menu-submenu-popup > .ant-menu {
+  width: 140px;
+}
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-light > .ant-menu.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-light.ant-menu-horizontal > .ant-menu-submenu::after,
+.ant-menu-light > .ant-menu.ant-menu-horizontal > .ant-menu-submenu::after {
+  border-bottom: none;
+}
